@@ -8,11 +8,11 @@ import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
 const loader = new GLTFLoader();
 
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 30, window.innerWidth / window.innerHeight, 0.1, 1000 );
+const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
 const renderer = new THREE.WebGLRenderer();
 
-const light = new THREE.AmbientLight( 0xfff5d4 ); // soft white light
+const light = new THREE.AmbientLight(0xfff5d4); // soft white light
 scene.add(light); 
 
 renderer.setSize( window.innerWidth, window.innerHeight );
