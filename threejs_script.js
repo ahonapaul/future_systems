@@ -31,7 +31,7 @@ scene.position.z = -20;
 
 const loader = new GLTFLoader();
 
-loader.load("animation.gltf", function (gltf) {
+loader.load("fas_room1.glb", function (gltf) {
 	scene.add(gltf.scene);
 });
 
