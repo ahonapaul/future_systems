@@ -1,0 +1,131 @@
+@font-face {
+    font-family: handwriting;
+    src: url('AhonaScrawl-Regular.ttf');
+}
+
+body{
+    font-family: 'handwriting';
+    background-image: url(cyclesrender1.png);
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+}
+
+.layout{
+    display: flexbox;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 80px;
+    width: 30vw;
+}
+
+h1{
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+h1:hover{
+    background-color: antiquewhite;
+    color:darkslategrey;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+p{
+    font-size: 35px;
+    color: antiquewhite;
+}
+
+.overlay{
+    display: flex;
+    margin-left: 80px;
+}
+
+button{
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+}
+
+.text1 , .text2 , .text3{
+    font-size: 20px;
+    display: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.hover1{
+    margin-top: 20vh;
+    margin-left: 35vw;
+}
+
+.hover2{
+    margin-top: 45vh;
+}
+
+.hover3{
+    margin-left: 10vw;
+    margin-top: -7vh;
+}
+
+.hover1 button:hover + .text1{
+    display: flex;
+    width: 5vw;
+}
+
+.hover2 button:hover + .text2{
+    display: flex;
+    width: 9vw;
+}
+
+.hover3 button:hover + .text3{
+    display: flex;
+    width: 5vw;
+}
+
+.overlay img{
+    width: 40vw;
+}
+
+.abouttext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 35px;
+    color: antiquewhite;
+}
+
+span{
+    margin-bottom: 20px;
+}
+
+.instructions{
+    opacity: 80;
+    color: burlywood;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+video{
+    width: 100vw;
+    z-index: 1;
+}
+
+.modelbutton{
+    font-family: 'handwriting';
+    z-index: 2;
+    margin-top: -10vh;
+    background-color: antiquewhite;
+    color: darkslategrey;
+    font-size: 35px;
+    width: 350px;
+    height: 50px;
+}
+
+.modelbutton:hover{
+    cursor: pointer;
+}
+

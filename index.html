@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FUTURE SYSTEMS</title>
-    <link rel='stylesheet' href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div></div>
-    <script type="module" src="threejs_script.js"></script>
+    <div class="layout">
+        <h1 onclick="openPage('about.html')">MONSTERS and SPIES</h1>
+        <p>a bedtime story</p>
+    </div>
+    <div class="overlay">
+        <div class="hover1">
+            <button onclick="openPage('desk.html')"></button>
+            <p class="text1">my lamp is a cyclops, one ever watching eye open all day</p>
+        </div>
+        <div class="hover2">
+            <button onclick="openPage('bed.html')"></button>
+            <p class="text2">the monster under my bed is a spy for the government</p>
+            <p class="text2">or maybe it's just my sister</p>
+        </div>
+        <div class="hover3">
+            <button onclick="openPage('sconce.html')"></button>
+            <p class="text3">the sconces don't always work, but maybe that's all just a cover</p>
+        </div>
+    </div>
     <script src="functions_script.js"></script>
 </body>
 </html>
